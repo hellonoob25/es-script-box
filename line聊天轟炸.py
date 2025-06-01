@@ -45,4 +45,4 @@ data = {
 for i in range(99999999999): 
 response = requests.post(url, headers=headers, data=data)
     print(f'第{i+1}次發送結果: {response.status_code}')
-    time.sleep(0.2) 
+    time.sleep(0.3) 
