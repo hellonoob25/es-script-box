@@ -9,7 +9,7 @@ import re
 # ===== 基本設定 =====
 API_KEY = os.getenv("OPENAI_API_KEY")  # 請事先在環境變數設定 OPENAI_API_KEY
 SLEEP_TIME = 5
-running = False  # 控制 bot 是否在執行
+running = False  #檢查 bot 是否在執行
 
 # ===== 顯示簽名動畫 =====
 def fade_out(window, duration=1000, steps=20):
@@ -136,3 +136,4 @@ stop_button = tk.Button(root, text="⏹ 停止 BOT", font=("Arial", 16), command
 stop_button.pack()
 
 root.mainloop()
+#做了很久誇兩句吧(T＿T)
